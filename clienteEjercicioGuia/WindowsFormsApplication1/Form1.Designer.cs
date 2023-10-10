@@ -32,13 +32,14 @@
             this.nombre = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.palindromo = new System.Windows.Forms.RadioButton();
+            this.alturaBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Alto = new System.Windows.Forms.RadioButton();
             this.Longitud = new System.Windows.Forms.RadioButton();
             this.Bonito = new System.Windows.Forms.RadioButton();
             this.connectButton = new System.Windows.Forms.Button();
             this.DisconnectButton = new System.Windows.Forms.Button();
-            this.Alto = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.alturaBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(130, 144);
+            this.button2.Location = new System.Drawing.Point(139, 168);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -72,6 +73,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBox1.Controls.Add(this.palindromo);
             this.groupBox1.Controls.Add(this.alturaBox);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.Alto);
@@ -86,6 +88,45 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Peticion";
+            // 
+            // palindromo
+            // 
+            this.palindromo.AutoSize = true;
+            this.palindromo.Location = new System.Drawing.Point(116, 137);
+            this.palindromo.Name = "palindromo";
+            this.palindromo.Size = new System.Drawing.Size(77, 17);
+            this.palindromo.TabIndex = 12;
+            this.palindromo.TabStop = true;
+            this.palindromo.Text = "Palindromo";
+            this.palindromo.UseVisualStyleBackColor = true;
+            // 
+            // alturaBox
+            // 
+            this.alturaBox.Location = new System.Drawing.Point(116, 197);
+            this.alturaBox.Name = "alturaBox";
+            this.alturaBox.Size = new System.Drawing.Size(164, 20);
+            this.alturaBox.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(23, 192);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 25);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Altura";
+            // 
+            // Alto
+            // 
+            this.Alto.AutoSize = true;
+            this.Alto.Location = new System.Drawing.Point(116, 114);
+            this.Alto.Name = "Alto";
+            this.Alto.Size = new System.Drawing.Size(98, 17);
+            this.Alto.TabIndex = 9;
+            this.Alto.TabStop = true;
+            this.Alto.Text = "Dime si soy alto";
+            this.Alto.UseVisualStyleBackColor = true;
             // 
             // Longitud
             // 
@@ -129,34 +170,6 @@
             this.DisconnectButton.UseVisualStyleBackColor = true;
             this.DisconnectButton.Click += new System.EventHandler(this.DisconnectButton_Click);
             // 
-            // Alto
-            // 
-            this.Alto.AutoSize = true;
-            this.Alto.Location = new System.Drawing.Point(116, 114);
-            this.Alto.Name = "Alto";
-            this.Alto.Size = new System.Drawing.Size(98, 17);
-            this.Alto.TabIndex = 9;
-            this.Alto.TabStop = true;
-            this.Alto.Text = "Dime si soy alto";
-            this.Alto.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(23, 192);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 25);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Altura";
-            // 
-            // alturaBox
-            // 
-            this.alturaBox.Location = new System.Drawing.Point(116, 197);
-            this.alturaBox.Name = "alturaBox";
-            this.alturaBox.Size = new System.Drawing.Size(164, 20);
-            this.alturaBox.TabIndex = 11;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +200,7 @@
         private System.Windows.Forms.RadioButton Alto;
         private System.Windows.Forms.TextBox alturaBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton palindromo;
     }
 }
 
