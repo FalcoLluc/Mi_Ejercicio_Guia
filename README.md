@@ -1,3 +1,5 @@
-# Ejercicio Guia de Sistemas Operativos  
-##  Tags:   
-    VersionInicial
+"# MiEjercicioGuia" 
+
+
+VersionInicial
+VersionConexionDesconexion

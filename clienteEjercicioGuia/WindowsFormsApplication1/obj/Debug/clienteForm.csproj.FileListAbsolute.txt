@@ -105,3 +105,13 @@ F:\Julio2018\Docencia\SO\2021-2022Q2\EjercicioGuiaEnGitHub\LaAplicacionAlInicio\
 F:\Julio2018\Docencia\SO\2021-2022Q2\EjercicioGuiaEnGitHub\LaAplicacionAlInicio\cliente_inicial\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
 F:\Julio2018\Docencia\SO\2021-2022Q2\EjercicioGuiaEnGitHub\LaAplicacionAlInicio\cliente_inicial\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 F:\Julio2018\Docencia\SO\2021-2022Q2\EjercicioGuiaEnGitHub\LaAplicacionAlInicio\cliente_inicial\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\share\Mi_ejercicio_guia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
