@@ -4,3 +4,4 @@
 VersionInicial
 VersionConexionDesconexion
 VersionPalindromo
+VersionConcurrenteAccesoExcluyente
