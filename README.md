@@ -3,3 +3,4 @@
 
 VersionInicial
 VersionConexionDesconexion
+VersionPalindromo
